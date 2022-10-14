@@ -1,5 +1,5 @@
 resource "aws_route53_record" "www" {
-  zone_id = var.PUBLIC_ZONE
+  zone_id = var.PUBLIC_ZONE_ID
   name    = "roboshop-${var.ENV}"
   type    = "CNAME"
   ttl     = 30
