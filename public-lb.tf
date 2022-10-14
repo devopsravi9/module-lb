@@ -9,3 +9,4 @@ resource "aws_lb" "public-alb" {
     Environment = "${local.TAG_PREFIX}-public-lb"
   }
 }
+
